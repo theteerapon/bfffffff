@@ -1370,7 +1370,6 @@ def bot(op):
                                     ki.sendText(msg.to,"Succes Cv")
                                     kk.sendText(msg.to,"Fuck You")
             elif "Blacklist @ " in msg.text:
-                print  "add blacklist"
                 _name = msg.text.replace("Blacklist @ ","")
                 _kicktarget = _name.rstrip(' ')
                 gs = ki2.getGroup(msg.to)
